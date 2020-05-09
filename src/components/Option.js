@@ -9,10 +9,10 @@ const Option = (props) => (
       props.handleDeleteOption(props.optionText);
       }}
     >
-      remove
+      Remove 
     </button>
   </div>
-);
+);  
 
 export default Option;
   
