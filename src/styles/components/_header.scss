@@ -1,0 +1,22 @@
+.header {
+  background: $light-green;
+  color: #fff;
+  margin-bottom: $s-size;
+  margin: 0 auto;
+  margin-top: $xl-size;
+  max-width: 60rem;
+  padding: $l-size 0;
+  text-align: center;
+}
+// BEM block element modifier
+.header__title {
+  font-size: $l-size;
+  margin: 0
+}
+
+.header__subtitle {
+  color: #eee;
+  font-size: $m-size;
+  font-weight: 500;
+  margin: 0;
+}
