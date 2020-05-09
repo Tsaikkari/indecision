@@ -1,17 +1,15 @@
 .header {
   background: $light-green;
   color: #fff;
-  margin-bottom: $s-size;
+  margin-bottom: $m-size;
   margin: 0 auto;
-  margin-top: $xl-size;
-  max-width: 60rem;
-  padding: $l-size 0;
-  text-align: center;
+  margin-top: $l-size;
+  padding: $m-size 3%;
 }
 // BEM block element modifier
 .header__title {
   font-size: $l-size;
-  margin: 0 21% 0 0;
+  margin: 0;
 }
 
 .header__subtitle {
@@ -19,4 +17,11 @@
   font-size: $m-size;
   font-weight: 500;
   margin: 0;
+}
+
+@media (min-width: $desktop-breakpoint) {
+  .header {
+    margin-bottom: $l-size;
+    padding-bottom: $l-size;
+  }
 }
