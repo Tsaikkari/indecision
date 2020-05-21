@@ -6,7 +6,7 @@ Install dependencies:
 yarn install
 
 Run the app:
-yarn run dev-server
+node server/server.js
 
 View in the browser:
 localhost:8080  
