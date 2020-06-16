@@ -1,8 +1,8 @@
 // Big button
 .big-button {
   background: $dark-grey;
+  border-bottom: .5rem solid darken($dark-grey, 10%);
   border-radius: 2px;
-  border: .1rem solid darken($dark-grey, 3%);
   color: #fff;
   font-weight: bold;
   font-size: $l-size;
